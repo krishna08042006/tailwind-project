@@ -1,0 +1,11 @@
+
+<div class="border-8 p-6 text-center">
+<img src=https://images.pexels.com/photos/37436432/pexels-photo-37436432.jpeg class="h-48 w-48 rounded-full ml-64"/>
+
+<h3 class="font-bold text-4xl mb-8">Krishna kumar</h3>
+
+<p class="mb-8 bg-green-500 p-6 font-extrabold">krishna will be great in every possible scenario and therefore he will be rising above
+  sky in all way and therefore he is best</p>
+
+<button class="border-4 p-4 w-3xs bg-yellow-400 font-bold hover:bg-amber-950 text-white">Follow</button>
+</div>
