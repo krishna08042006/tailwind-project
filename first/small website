@@ -1,0 +1,65 @@
+<header class="bg-yellow-200 flex justify-between p-6">
+            <h1 class="font-black text-2xl">Welcome to my website</h1> 
+
+           <div>
+            <ul class="flex gap-4 font-black">
+              <li class="hover:bg-blue-400"><a href="#">Home</a></li>
+              <li class="hover:bg-blue-400"><a href="#">About</a></li>
+              <li class="hover:bg-blue-400"><a href="#">Contact</a></li>
+              <li class="hover:bg-blue-400"><a href="#">Login</a></li>
+            </ul>
+           </div>
+
+           <div class="border-2 px-3 py-2.5 hover:bg-red-400">
+            <button>click me</button>
+           </div>
+          </header>
+
+          <main class="mt-6">
+
+            <section>
+
+              <p class="font-black font-serif">krishna will be great and in every possible way to accomplish something that could be best</p>
+
+              <p class="font-black font-serif mt-4">krishna will be the best in every possible scenario and that is what makes him special</p>
+            </section>
+
+            <section class="mt-4 border-4 p-6">
+              <form class="grid ">
+                <label htmlFor="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" class="border-2 p-1.5"/>
+
+                <label htmlFor="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" class="border-2 p-1.5"/>
+
+                <label htmlFor="message">Message</label>
+                <textarea name="message" id="message" placeholder="Enter your message" class="border-2"></textarea>
+
+                <button type="submit" class="border-2 mt-4 p-1 hover:bg-green-300">Send Message</button>
+              </form>
+            </section>
+          </main>
+
+          <footer class="flex justify-between mt-14 bg-gray-400 p-6">
+            <div>
+              <ul>
+                <li class="hover:text-green-400 font-black"><a href="#">Privacy Policy</a></li>
+                <li class="hover:text-green-400 font-black"><a href="#">Terms of Service</a></li>
+                <li class="hover:text-green-400 font-black"><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <ul>
+                <li class="hover:text-orange-400 font-black"><a href="#">Facebook</a></li>
+                <li class="hover:text-orange-400 font-black"><a href="#">Twitter</a></li>
+                <li class="hover:text-orange-400 font-black"><a href="#">Instagram</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <p class="font-black bg-amber-400">&copy; 2026 My Website. All rights reserved.</p>
+            </div>
+
+            
+          </footer>
